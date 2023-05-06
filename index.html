@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Developer</a></li>
+        <li><a href="#">Developer Blog</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+
+      <form>
+        <select id="category" name="category">
+          <option value="all">All Product</option>
+          <option value="books">Books</option>
+          <option value="movies">Movies</option>
+          <option value="music">Upholstery</option>
+        </select>
+        <div>
+          <input type="text" id="search-box" name="search" />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+      </form>
+    </nav>
+  </header>
+
+  <p class="path">Home > Getting Started</p>
+  <div class="greyline"></div>
+  <h2>Getting Started</h2>
+
+  <section class="services">
+    <div class="dropdown">
+      <div class="dropdown-label">Getting started <i class="arrow-down"></i></div>
+      <ul class="dropdown-menu">
+        <li><a href="#section1">User Guides</a></li>
+        <li><a href="#section2">Developer</a></li>
+        <li><a href="#section3">Release Notes</a></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <section id="section1">
+        <div class="sections">
+          <img src="./images/new-document.png" alt="file image">
+          <div class="content-info">
+            <h3>User Guides</h3>
+            <p>We're a new category, with lots of useful informations</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="section2">
+        <div class="sections">
+          <img src="./images/coding.png" alt="file image">
+          <div class="content-info">
+            <h3>Developer</h3>
+            <p>We're a new category, with lots of useful informations</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="section3">
+        <div class="sections">
+          <img src="./images/marketing.png" alt="file image">
+          <div class="content-info">
+            <h3>Release Notes</h3>
+            <p>We're a new category, with lots of useful informations</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+  <footer>
+    <h3>Still need help?</h3>
+    <div class="black-div">
+      <div class="input-container">
+        <label for="input1">First Name</label>
+        <input type="text" id="input1">
+      </div>
+      <div class="input-container">
+        <label for="input2">Last Name</label>
+        <input type="text" id="input2">
+      </div>
+      <div class="input-container">
+        <label for="input3">Email</label>
+        <input type="text" id="input3">
+      </div>
+      <button type="submit"> Get Started</button>
+    </div>
+    <div class="footer-roles">
+      <div class="row">
+        <p><strong>Products</strong></p>
+        <a href="#row1word2">Personlization</a>
+        <a href="#row1word3">eCommerce</a>
+        <a href="#row1word4">Order Management</a>
+        <a href="#row1word5">Point of Sale</a>
+      </div>
+      <div class="row">
+        <p><strong>Resources</strong></p>
+        <a href="#row1word2">Blog</a>
+        <a href="#row1word3">Developer Blog</a>
+        <a href="#row1word4">Developers</a>
+        <a href="#row1word5">Support</a>
+      </div>
+      <div class="row">
+        <p><strong>Who we are</strong></p>
+        <a href="#row1word2">Who we are</a>
+        <a href="#row1word3">leadership</a>
+        <a href="#row1word4">News/press</a>
+        <a href="#row1word5">eComerce Awards</a>
+      </div>
+      <div class="row">
+        <p><strong>Employee login</strong></p>
+      </div>
+    </div>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
